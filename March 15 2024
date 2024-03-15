@@ -1,0 +1,27 @@
+<div class="bot"></div>
+<style>
+*{
+  background:#FFFFCD;
+}
+  body
+  {
+    margin: 50 120;
+    width:69;
+    height:0;
+    border-left: 46px solid #FFFFCD;
+    border-right: 46px solid #FFFFCD;
+    border-bottom: 160px solid #E78320;
+  }
+  .bot
+  {
+    position: fixed;
+    margin: 160 -65;
+    height: 21px;
+    width:200px;
+    background:#EDAF38;
+    border-radius:50px;
+    color:#F1D31D;
+    box-shadow: -21px 19px, 19px 19px;
+  }
+
+</style>
