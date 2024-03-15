@@ -1,0 +1,30 @@
+<p class="trap"></p>
+<p class="cir"></p>
+<style>
+	* {
+		background: #FFFFCD;
+
+		+* {
+			background: #EDAF38;
+			margin: 210 100 70;
+			border-radius: 21q;
+			box-shadow: -21q 21q#F1D31D, 21q 21q#F1D31D
+		}
+	}
+
+	.trap {
+		position: fixed;
+		padding: 80;
+		background: #E78320;
+		margin: -160 20;
+		clip-path: polygon(29%0, 71%0, 100%100%, 0%100%)
+	}
+
+  .cir{
+    background:#EDAF38;
+    width:20px;
+    height:1.3rem;
+  }
+
+  
+</style>
