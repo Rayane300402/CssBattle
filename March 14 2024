@@ -1,0 +1,40 @@
+<div class="main">
+   <div class="trapezoid-left">   
+   </div>
+  <div class="trapezoid-right">   
+   </div>
+</div>
+<style>
+ body {
+    margin: 0;
+    height: 100vh;
+    background: #7E2926; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    width: 150px;
+    height: 100vh;
+    display:flex;
+    position:relative;
+    background: #FEFF92;  
+  }
+
+  .trapezoid-left{
+    background:#D2934B;
+    height:100%;
+    width:50%;
+    clip-path: polygon(0 0, 100% 33.5%, 100% 67%, 0 100%);
+  }
+
+   .trapezoid-right{
+    background:#DEB365;
+    height:100vh;
+    width:50%;
+    clip-path: polygon(0 33.5%, 100% 0, 100% 100%, 0 67%);
+  }
+</style>
+
+
+
