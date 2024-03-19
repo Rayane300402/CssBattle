@@ -1,0 +1,25 @@
+<p><i></i></p>
+<style>
+*{
+	background: #E0DBF0;
+    border-inline: 25px solid #857DA1;
+    margin: 60 100;
+    color: #BBB2DB;
+    *{
+        border-inline: 50px solid;
+        margin:39.8 0;
+        padding:0 11;
+    }
+      p{
+        padding:50 0;
+        border-width: 10.2
+	}
+  }
+  i{
+    position:fixed;
+    margin: -80;
+    color:#E0DBF0;
+    padding:5 35.4;
+    box-shadow: 0 150px, 5.5px 0#857DA1, 15px 0, -5.5px 0 #857DA1,-15px 0, -5.5px 150px#857DA1, -15px 150px, 5.5px 150px#857DA1, 15px 150px; 
+  }
+</style>
